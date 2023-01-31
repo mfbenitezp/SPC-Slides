@@ -1,0 +1,59 @@
+---
+title: "The Synthetic Population Catalyst"
+subtitle: ""
+author: "Dr. Fernando Benitez-Paez"
+editor: visual
+
+format:
+  revealjs:
+    incremental: true 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/logo_SPC_Black.png
+    css: styles.css
+    footer: "PHRG brown bag – Feb 2023"
+resources:
+  - demo.pdf
+---
+
+## Turing’s Urban Analytics Team {.smaller}
+
+
+![](images/SPC_team.png)
+
+
+To learn more about the Urban Analytics research programmer <https://www.turing.ac.uk/research/research-programmes/urban-analytics>
+
+## Spatial microsimulation for ‘what-if’ scenario modelling at national scale in great Britain {.smaller}
+
+
+The SPC makes it easier for researchers to work with synthetic population data in Great Britain. It combines a variety of data sources and outputs a single file in protocol buffer format, describing the population in a given study area, with a particular focus on socio-economic characteristics and interactions between individuals.
+
+
+## How does it work?
+
+![](images/HowDoesItWork.png)
+
+## Context – Motivation {.smaller}
+
+- Combining censuses (fine-scale but limited range of attributes) with surveys (more variables but coarse scale and small sample sizes) and mobility data 
+
+- Pitfalls: High computational requirements, excessive complexity, limited coverage
+
+- **Four areas of improvement**: variability estimation; reusability; explicit results for policymakers; and integration with big data streams for what-if scenario modelling (Tanton, 2017)
+
+- “What needs to be done rather than what can be done” (Spiekermann& Wegener)
+
+- Focus on socio-demographic characteristics and interactions among individuals
+
+## Lineage 
+
+**Dynamic Micro-simulation for Epidemics (DyME)**:
+
+*Is there a pre-existing model of human social behaviour and contacts into which new SEIR type labels for disease state can be introduced, with appropriate statistics for changing these labels?*
+
+10.1016/j.socscimed.2021.114461  
+
+
